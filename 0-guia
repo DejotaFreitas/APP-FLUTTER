@@ -1,0 +1,17 @@
+// verificar dependencias do flutter
+flutter doctor
+
+// criar projeto
+flutter create NomeProjeto
+
+// acesse o diretorio e rodar aplicação
+flutter run
+
+//imagens devem ser declaradas no pubspec.yaml, crie o diretorio assets e coloque a imagem
+assets:
+  - assets/image.jpeg
+
+
+// MOSTRA WIDGETS
+ crtl + shift + p
+ Flutter: Toggle Debug Painting
