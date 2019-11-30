@@ -1,0 +1,35 @@
+// Abrir o console do flutter
+
+// Para começar, você precisa mudar para o canal principal. Execute o seguinte comando no seu terminal
+flutter channel master
+// OU a versao no nao estavel
+flutter channel dev
+
+// Em seguida, atualize seu flutter para a versão mais recente do master.
+flutter upgrade
+
+// Quando terminar, você deseja ativar o suporte da web.
+flutter config --enable-web
+
+// Agora, quando você cria um projeto, ele fica ativado na Web e você pode executá-lo no navegador. 
+// Para ver se o seu ambiente está configurado corretamente, execute
+flutter devices
+
+// criando projeto
+flutter create --web webby
+
+// rodar projeto
+cd webby
+flutter run
+
+// gera compilacao do projeto
+ flutter build web
+
+//==========================================
+
+// da suporte ao projeto mobile para executar no web
+flutter create .
+
+// rodar 
+flutter run -d chrome
+

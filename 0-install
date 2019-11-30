@@ -1,0 +1,14 @@
+// baixar flutter e colocar C:\flutter
+https://flutter.dev/docs/get-started/install/windows
+
+// adicionar o fluter bin ao PATH do sistema
+C:\flutter\bin
+
+// usar o comando para verificar as dependencias
+flutter doctor
+
+// instalar dependencias do DART e FLUTTER no ANDROID STUDIO e no VS CODE
+
+// criar maquina virtual no android studio 
+- usar imagem x86 or x86_64 
+- select Hardware - GLES 2.0 to enable hardware acceleration.

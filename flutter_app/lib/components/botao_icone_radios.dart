@@ -14,8 +14,8 @@ class BotaoIconeRadios extends StatelessWidget {
       this.texto = "Botao",
       this.corTexto = Colors.white,
       this.corFundo,
-      this.corBorda, 
-      this.icone, 
+      this.corBorda,
+      this.icone,
       this.corIcone=Colors.white
       })
       : super(key: key);
@@ -35,7 +35,7 @@ class BotaoIconeRadios extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Padding(
-            padding: const EdgeInsets.only(left: 15, right: ),
+            padding: const EdgeInsets.only(left: 15, right: 15),
             child: Icon(icone ?? Icons.home, color: Colors.white),
           ),
           Text(texto, style: TextStyle(color: corTexto, fontWeight: FontWeight.bold))
